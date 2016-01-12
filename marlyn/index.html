@@ -1,0 +1,156 @@
+<!-- Skeleton boilerplate and index.html used -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Marlyn | Jewellery Store</title>
+  <meta name="description" content="Marlyn's Jewellery Collection and contact">
+  <meta name="author" content="Praneeth">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main-skel.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/arrow.png">
+
+  <!-- Scripts 
+  =========================== -->
+  <script src="transitions.js"></script>
+
+</head>
+<body>
+<!-- <body background="images/2RingPop.png" bgproperties="fixed"> -->
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="header container" id="top">
+
+    <div class="row">
+      <nav class="four columns navigation-primary">
+          <h1>Marlyn Jewellers<hr></h1>
+
+          <ul id="nav">
+            <li class="menu-column" id="gal">
+              <a class="tab" id="gal-tab" href="javascript:showHideSub('gal-sub')">Collection<img id="arrowdown" src="images/arrow.png"/></a>
+              <!-- contents under this tab -->
+              <div id="gal-sub" class="tab-content submenu" style="opacity:0; height:0">
+                <ul id="submenu">
+                  <li><a href="gallery-portraits.html">Necklaces</a></li>
+                  <li><a href="gallery-chalk.html">Bangles</a></li>
+                  <li><a href="gallery-other.html">Bracelets</a></li>
+                  <li><a href="gallery-pierced-earings.html">Pierced-earings</a></li>
+                  <li><a href="gallery-pin.html">Pins</a></li>
+                  <li><a href="gallery-ring.html">Rings</a></li>
+                  <li><a href="gallery-watch.html">Watches</a></li>
+                </ul>
+              </div>
+            </li>
+
+<!--
+            <li><a id="menu-bio" class="tab">Bio</a></li>
+            <li><a id="menu-com">Commissions</a></li>
+            <li><a id="menu-cont">Contact</a></li>
+-->
+            <li><a id="menu-bio" href="javascript:showHideCont('bio')">Bio</a></li>
+            <li><a id="menu-com" href="javascript:showHideCont('com')">Price Information</a></li>
+            <li><a id="menu-cont" href="javascript:showHideCont('contact')">Contact</a></li>
+          </ul>
+
+          <footer>
+            <small>2016  |  <a href="#">MARLYN JEWELLERS</a></small>
+          </footer>
+      </nav>
+      
+      <div id="bio" class="eight columns main-content" style="opacity:0">
+        <h4>Bio</h4>
+        <article>
+          <img id="bio-img" src="css/diamonds.jpg" alt="photo of jewellery">
+          <p>Marlyn jewelleries is a collection of authentic philipine designs served on your door</p>
+          <p>You will have an oppurtunity to try at your home when one of our sales representatives will bring to your home.</p>
+          <p>Diamonds, Necklaces, Braceletes, Bangles and many more you wish.</p>
+          <p>Currently, We are using a basic contact form where you could contact us. In Future planning to Launch a complete ecommerce website.</p>
+        </article>
+        <br>
+        <a id="to-top" href="#top">Back to Top</a>
+      </div>
+
+      <div id="com" class="eight columns main-content" style="opacity:0">
+        <h4>Price Information</h4>
+        <article>
+          <div class="half-com" id="com-info"><p> Place a minimum $30 order and you may choose a <italic>"Bonus Item"</italic> priced equal to or less than your order total for just <bold>$14</bold> plus tax. The higher your order total, the more Bonus Items you may choose! For more details please 
+<a id="skip-to-cont" href="javascript:showHideCont('contact')">contact</a> Marlyn
+<p><h4>Bonus Item Savings Plan</h4></p>
+<table style="width:200%;border:1px solid white;border-collapse:collapse;">
+  <tr>
+    <th style="border:1px solid white;border-collapse:collapse;padding: 5px;text-align: left;">
+      <bold>Total@Retail</bold>
+    </th>
+    <th style="border:1px solid white;border-collapse:collapse;padding: 5px;text-align: left;">$30-$59
+    </th>
+    <th style="border:1px solid white;border-collapse:collapse;padding: 5px;text-align: left;">$60-$89
+    </th>
+    <th style="border:1px solid white;border-collapse:collapse;padding: 5px;text-align: left;">$90+
+    </th>
+  </tr>
+  <tr>
+    <td style="border:1px solid white;border-collapse:collapse;padding: 5px;text-align: left;">
+      <bold># of BONUS items</bold>
+    </td>
+    <td style="border:1px solid white;border-collapse:collapse;padding: 5px;text-align: left;">1 equal to order total $14
+    </td>
+    <td style="border:1px solid white;border-collapse:collapse;padding: 5px;text-align: left;">2 equal to order total $14 + $14
+    </td>
+    <td style="border:1px solid white;border-collapse:collapse;padding: 5px;text-align: left;">3 equal to order total $14 + $14 + $14
+    </td>
+  </tr>
+</table>
+</div>
+          <div class="half-com" id="com-photo"><img src="css/diamonds.jpg" alt="photo of jewellery"></div>
+        </article>
+        <br>
+        <a id="to-top" href="#top">Back to Top</a>
+      </div>
+
+      <div id="contact" class="eight columns main-content"  style="opacity:0">
+        <h4>Contact Marlyn</h4>
+        <p>To inquire about price or additional orders</p>
+        <p><img class="soc-icon" src="images/whitephone.png" alt="phone icon">(000)-000-0000</p>
+        <p><img class="soc-icon" src="images/whiteemail.png" alt="email icon">youremailaddress@gmail.com</p>
+        <p><a href="https://instagram.com/"><img class="soc-icon" src="images/whiteinstagram.png" alt="instagram icon"></a>Marlyn Instagram</p>
+        <p><a href="https://www.flickr.com/"><img class="soc-icon" src="images/whiteflickr.png" alt="flickr icon"></a>YOUR FLICKR ACCOUNT</p>
+        <p><a href="https://www.facebook.com/"><img class="soc-icon" src="images/whitefacebook.png" alt="facebook icon"></a>YOUR FACEBOOK PAGE</p>
+        <br>
+        <a id="to-top" href="#top">Back to Top</a>
+      </div>
+    </div>
+
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- HelpOnClick -->
+<span id='__livechat-assist' style='display: none'></span>
+<script type='text/javascript'>(function() {
+  var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+  po.src = '//traffic7.helponclick.com/assist?c=895325fe-3820-40f2-b2b2-6266a121bb2f';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();</script>
+<div style='display:none'><a href='http://www.helponclick.com'>Live Chat Software</a></div>
+<!-- /HelpOnClick -->
+</body>
+</html>
